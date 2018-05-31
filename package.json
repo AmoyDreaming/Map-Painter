@@ -1,0 +1,32 @@
+{
+  "name": "traffic-viz-platform",
+  "version": "0.1.0",
+  "description": "traffic-viz-platform",
+  "author": "Pau Lau",
+  "license": "MIT",
+  "repository": {
+    "type": "http",
+    "url": "http://gitlab.amoydreaming.com/pau/Traffic-Viz-Platform.git"
+  },
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "devDependencies": {
+    "electron": "^1.8.4",
+    "electron-rebuild": "^1.7.3"
+  },
+  "dependencies": {
+    "color-hash": "^1.0.3",
+    "coordtransform": "^2.1.2",
+    "dateformat": "^3.0.3",
+    "electron-screencapture": "^1.1.0",
+    "jquery": "^3.2.1",
+    "mapbox-gl": "^0.44.1",
+    "mathjs": "^4.0.1",
+    "plotly": "^1.0.6",
+    "better-sqlite3": "^4.1.0",
+    "p5": "^0.6.0",
+    "google-maps": "^3.2.1"
+  }
+}

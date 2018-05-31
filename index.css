@@ -1,0 +1,79 @@
+@import "bootstrap.css";
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map_view {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1200px;
+    height: 800px;
+}
+
+#canvas_view {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#banner1 {
+    height: 53px;
+    width: 380px;
+    z-index: 99999;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgb(234, 91, 75);
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    font-size: 30px;
+}
+
+#map_view2 {
+    position: absolute;
+    left: 403px;
+    top: 0;
+    width: 400px;
+    height: 800px;
+}
+
+#banner2 {
+    height: 53px;
+    width: 380px;
+    z-index: 99999;
+    position: absolute;
+    left: 403px;
+    top: 0;
+    background: rgb(234, 91, 75);
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    font-size: 30px;
+}
+
+#map_view3 {
+    position: absolute;
+    left: 806px;
+    top: 0;
+    width: 400px;
+    height: 800px;
+}
+
+#banner3 {
+    height: 53px;
+    width: 380px;
+    z-index: 99999;
+    position: absolute;
+    left: 806px;
+    top: 0;
+    background: rgb(234, 91, 75);
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    font-size: 30px;
+}
